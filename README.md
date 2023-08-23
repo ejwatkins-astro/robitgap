@@ -8,7 +8,7 @@ When sky is subtracted from spectra, any slight misalignment of the flux in the 
 
 ### Robust PCA
 
-roitgap stands for RObust ITerative GAPppy PCA. It is a pca routine developed by Tamas Budavari and Vivienne Wild that uses robust statistics to reduce the impact of outliers on the principle components. This is because the normative pca uses the mean, standard deviation and the covariance matrix, which are easily skewed with one bad outlier, so robust estimators of these statistics are used instead. It does this by building up the pca solution iteratively by streaming in 1 spectrum at a time, where the spectra are given to the method in a random order. For the maths behind this technique, see Budavari et al. 2007.
+roitgapca stands for RObust ITerative GAPppy PCA. It is a pca routine developed by Tamas Budavari and Vivienne Wild that uses robust statistics to reduce the impact of outliers on the principle components. This is because the normative pca uses the mean, standard deviation and the covariance matrix, which are easily skewed with one bad outlier, so robust estimators of these statistics are used instead. It does this by building up the pca solution iteratively by streaming in 1 spectrum at a time, where the spectra are given to the method in a random order. For the maths behind this technique, see Budavari et al. 2007.
 
 ### Data gaps: gappy reconstruction
 
